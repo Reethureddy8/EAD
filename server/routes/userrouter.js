@@ -36,6 +36,7 @@ router.post('/', async(req,res) =>
     const usermodel = new Usermodel
    ({
         name: req.body.name,
+        id:req.body.id,
         tech: req.body.tech,
         sub: req.body.sub
     })
